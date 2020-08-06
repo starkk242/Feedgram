@@ -19,21 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_180938_create_profiles_table.php" afterDir="false" />
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added new Things">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_06_180938_create_profiles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_180938_create_profiles_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,8 +182,16 @@
       <option name="presentableId" value="Default" />
       <updated>1596522199074</updated>
       <workItem from="1596522208676" duration="8393000" />
-      <workItem from="1596722561647" duration="10093000" />
+      <workItem from="1596722561647" duration="12485000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new Things">
+      <created>1596737677368</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596737677368</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,5 +210,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added new Things" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new Things" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596737687152">
+      <screen x="0" y="0" width="1093" height="584" />
+    </state>
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596737687152" />
   </component>
 </project>

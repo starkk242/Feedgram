@@ -14,10 +14,13 @@
                 <div class="pr-5"><strong>665 </strong>following</div>
             </div>
             <div class="pt-3">
-                <strong>Bimal Singh</strong>
+                <strong>{{ $user->profile->title }}</strong>
             </div>
             <div class="pt-1">
-                Execute me and find the man with capability of doing anything.
+                {{ $user->profile->description }}
+            </div>
+            <div class="pt-1">
+                <a href="#">{{ $user->profile->url }}</a>
             </div>
         </div>
     </div>
