@@ -19,16 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added Find or fail;">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_190835_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added Posting images in for a user">
+      <change beforePath="$PROJECT_DIR$/.idea/Feedgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Feedgram.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,6 +151,7 @@
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fcfCKldzVdWKUD4GG4KzgUOz7O" />
@@ -194,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596522199074</updated>
       <workItem from="1596522208676" duration="8393000" />
-      <workItem from="1596722561647" duration="18429000" />
+      <workItem from="1596722561647" duration="19944000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Things">
       <created>1596737677368</created>
@@ -217,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596740521625</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added Posting images in for a user">
+      <created>1596746595574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596746595574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,20 +246,21 @@
     <MESSAGE value="Added new Things" />
     <MESSAGE value="Added new Things1" />
     <MESSAGE value="Added Find or fail;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Find or fail;" />
+    <MESSAGE value="Added Posting images in for a user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Posting images in for a user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="269" y="34" width="540" height="524" key="StructurePopup" timestamp="1596742050307">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
     <state x="269" y="34" width="540" height="524" key="StructurePopup/0.0.1093.584@0.0.1093.584" timestamp="1596742050307" />
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596740527823">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596746602701">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596740527823" />
-    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1596744383413">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596746602701" />
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1596747766833">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1596744383413" />
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1596747766833" />
   </component>
 </project>
