@@ -19,8 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added new Things1">
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added Find or fail;">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_190835_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,8 +168,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Starkk\Feedgram\resources\views\posts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Starkk\Feedgram\resources\views\Profiles" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -178,7 +194,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596522199074</updated>
       <workItem from="1596522208676" duration="8393000" />
-      <workItem from="1596722561647" duration="12693000" />
+      <workItem from="1596722561647" duration="18429000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Things">
       <created>1596737677368</created>
@@ -194,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596740301812</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Find or fail;">
+      <created>1596740521625</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596740521625</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,12 +238,21 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added new Things" />
     <MESSAGE value="Added new Things1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new Things1" />
+    <MESSAGE value="Added Find or fail;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Find or fail;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596740307570">
+    <state x="269" y="34" width="540" height="524" key="StructurePopup" timestamp="1596742050307">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596740307570" />
+    <state x="269" y="34" width="540" height="524" key="StructurePopup/0.0.1093.584@0.0.1093.584" timestamp="1596742050307" />
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596740527823">
+      <screen x="0" y="0" width="1093" height="584" />
+    </state>
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596740527823" />
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1596744383413">
+      <screen x="0" y="0" width="1093" height="584" />
+    </state>
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1596744383413" />
   </component>
 </project>
