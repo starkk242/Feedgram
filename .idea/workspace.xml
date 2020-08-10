@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Post view created">
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Edit post validation done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +193,7 @@
       <workItem from="1596777318953" duration="757000" />
       <workItem from="1596878894033" duration="2130000" />
       <workItem from="1597066236969" duration="1910000" />
-      <workItem from="1597083596107" duration="824000" />
+      <workItem from="1597083596107" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Things">
       <created>1596737677368</created>
@@ -239,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597066625741</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Edit post validation done">
+      <created>1597084571787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1597084571787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,17 +271,18 @@
     <MESSAGE value="Post showing on the profile pagea and is square" />
     <MESSAGE value="Post showing on the profile page and is square" />
     <MESSAGE value="Post view created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post view created" />
+    <MESSAGE value="Edit post validation done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit post validation done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="269" y="34" width="540" height="524" key="StructurePopup" timestamp="1596742050307">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
     <state x="269" y="34" width="540" height="524" key="StructurePopup/0.0.1093.584@0.0.1093.584" timestamp="1596742050307" />
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1597066638153">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1597084574697">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1597066638153" />
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1597084574697" />
     <state x="365" y="206" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597066565240">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
