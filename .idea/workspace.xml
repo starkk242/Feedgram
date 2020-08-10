@@ -19,15 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Added Posting images in for a user">
-      <change beforePath="$PROJECT_DIR$/.idea/Feedgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Feedgram.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Post showing on the profile page and is square">
+      <change afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/profiles/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +193,10 @@
       <option name="presentableId" value="Default" />
       <updated>1596522199074</updated>
       <workItem from="1596522208676" duration="8393000" />
-      <workItem from="1596722561647" duration="19944000" />
+      <workItem from="1596722561647" duration="20171000" />
+      <workItem from="1596777318953" duration="757000" />
+      <workItem from="1596878894033" duration="2130000" />
+      <workItem from="1597066236969" duration="282000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Things">
       <created>1596737677368</created>
@@ -224,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596746595574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Post showing on the profile page and is square">
+      <created>1596748340673</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596748340673</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +249,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -247,20 +257,22 @@
     <MESSAGE value="Added new Things1" />
     <MESSAGE value="Added Find or fail;" />
     <MESSAGE value="Added Posting images in for a user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Posting images in for a user" />
+    <MESSAGE value="Post showing on the profile pagea and is square" />
+    <MESSAGE value="Post showing on the profile page and is square" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post showing on the profile page and is square" />
   </component>
   <component name="WindowStateProjectService">
     <state x="269" y="34" width="540" height="524" key="StructurePopup" timestamp="1596742050307">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
     <state x="269" y="34" width="540" height="524" key="StructurePopup/0.0.1093.584@0.0.1093.584" timestamp="1596742050307" />
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596746602701">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1596748344666">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596746602701" />
-    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1596747766833">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1596748344666" />
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup" timestamp="1596881257990">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1596747766833" />
+    <state x="209" y="0" width="672" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1596881257990" />
   </component>
 </project>
