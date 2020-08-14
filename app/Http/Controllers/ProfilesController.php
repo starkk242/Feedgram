@@ -24,6 +24,11 @@ class ProfilesController extends Controller
         return view('profiles.edit',compact('user'));
     }
 
+//    public function index()
+//    {
+//        $user =
+//    }
+
     public function update(User $user)
     {
         $this->authorize('update', $user->profile);

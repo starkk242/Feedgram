@@ -19,13 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Protection added on Edit Profie and add post">
+    <list default="true" id="6899dde5-0b00-4247-81c4-2b382ab5c944" name="Default Changelist" comment="Edit Profile Working and Post view edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_06_180938_create_profiles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_06_180938_create_profiles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/posts/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +198,9 @@
       <workItem from="1596777318953" duration="757000" />
       <workItem from="1596878894033" duration="2130000" />
       <workItem from="1597066236969" duration="1910000" />
-      <workItem from="1597083596107" duration="5635000" />
+      <workItem from="1597083596107" duration="5920000" />
+      <workItem from="1597204235143" duration="3260000" />
+      <workItem from="1597432463898" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="Added new Things">
       <created>1596737677368</created>
@@ -261,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597086761675</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Edit Profile Working and Post view edited">
+      <created>1597089376637</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597089376637</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +302,8 @@
     <MESSAGE value="Edit post validation done" />
     <MESSAGE value="Solved the Edit page error" />
     <MESSAGE value="Protection added on Edit Profie and add post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Protection added on Edit Profie and add post" />
+    <MESSAGE value="Edit Profile Working and Post view edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit Profile Working and Post view edited" />
   </component>
   <component name="WindowStateProjectService">
     <state x="277" y="47" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1597087017816">
@@ -302,17 +314,18 @@
       <screen x="0" y="0" width="1093" height="584" />
     </state>
     <state x="269" y="34" width="540" height="524" key="StructurePopup/0.0.1093.584@0.0.1093.584" timestamp="1596742050307" />
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1597086777740">
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2" timestamp="1597089580471">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
-    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1597086777740" />
+    <state x="139" y="25" key="Vcs.Push.Dialog.v2/0.0.1093.584@0.0.1093.584" timestamp="1597089580471" />
     <state x="365" y="206" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597066565240">
       <screen x="0" y="0" width="1093" height="584" />
     </state>
     <state x="365" y="206" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1093.584@0.0.1093.584" timestamp="1597066565240" />
-    <state x="207" y="0" width="674" height="678" key="search.everywhere.popup" timestamp="1597088361505">
-      <screen x="0" y="0" width="1093" height="584" />
+    <state x="259" y="0" width="843" height="857" key="search.everywhere.popup" timestamp="1597435500948">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="207" y="0" width="674" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1597088361505" />
+    <state x="207" y="0" width="674" height="678" key="search.everywhere.popup/0.0.1093.584@0.0.1093.584" timestamp="1597208224439" />
+    <state x="259" y="0" width="843" height="857" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1597435500948" />
   </component>
 </project>
